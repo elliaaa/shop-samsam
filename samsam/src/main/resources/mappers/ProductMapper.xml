@@ -40,7 +40,7 @@
         product_content
         from product
         where product_seq = #{ productSeq }
-        and delete_yn = 1
+
     </select>
 
     <update id="update">
